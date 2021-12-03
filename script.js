@@ -1,8 +1,9 @@
+const nfce = document.querySelector('.nfce');
 const output = document.querySelector('.output');
-const btn = document.querySelector('.btn-copiar');
+const btnCopiar = document.querySelector('.btn-copiar');
+const btn = document.querySelector('.btn');
+const input = nfce.value;
 
-// const botao = document.querySelector('.btn-copiar');
-
-btn.addEventListener('click', () => {
+btnCopiar.addEventListener('click', () => {
   window.navigator.clipboard.writeText(output.innerText);
 });
