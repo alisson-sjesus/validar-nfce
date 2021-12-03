@@ -12,10 +12,6 @@
   flex-direction: column;
 }
 
-.titulo {
-  margin-bottom: 20px;
-}
-
 .nfce {
   display: inline-block;
   width: 50%;
@@ -45,6 +41,16 @@
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   padding: 3px;
+}
+
+.linha {
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #d1d1d1;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .btn {
